@@ -34,8 +34,6 @@
 - Random initial theta initialization (Symmetry breaking)
 - Neural Network Architecture (how to choose no. of input units (features), no. of output units (classes), no. of hidden units per layer)
 
-[Week 5 - Lecture 9.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14aca671-4a3a-4a56-be2c-4948be0e0884/Week_5_-_Lecture_9.pdf)
-
 ### Week 6
 
 - Evaluating Hypothesis (Test set error, Misclassification error for classification problems)
