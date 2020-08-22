@@ -1,0 +1,4 @@
+**/my_checkpoint.pth.tar
+**/runs/**
+**/.data/**
+**/__pycache__/**
