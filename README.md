@@ -1,6 +1,6 @@
 I created this repo for logging my progress of studying deep learning and also to share [blog/article links](#6-questions-i-have-searched) that may be useful to other ppl.
 
----
+<br/>
 
 ### 1. Courses I am taking
 
