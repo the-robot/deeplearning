@@ -1,3 +1,7 @@
+I created this repo to share my progress of studying deep learning and also [blog/article links](#6-questions-i-have-searched) that may be useful to other ppl.
+
+---
+
 ### 1. Courses I am taking
 
 - [x] [Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning) `02/Aug/2020 - 22/Aug/2020`
