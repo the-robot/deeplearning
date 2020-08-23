@@ -30,8 +30,13 @@ I created this repo to log my progress of studying deep learning and also to sha
 
 ### 4. Links to checkout later
 
-- https://cs231n.github.io/
-- https://web.stanford.edu/class/cs224n/
+**Courses**
+
+- https://cs231n.github.io/ (Convolutional Neural Networks for Visual Recognition)
+- https://web.stanford.edu/class/cs224n/ (Natural Language Processing with Deep Learning)
+
+**Links**
+
 - http://neuralnetworksanddeeplearning.com/
 - https://www.deeplearningbook.org/
 - https://spinningup.openai.com/en/latest/index.html
