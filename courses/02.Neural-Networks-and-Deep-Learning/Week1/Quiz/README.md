@@ -11,8 +11,6 @@
 9. ✔️
 10. ✔️
 
-Check answers in `Answers.md`.
-
 <br/>
 
 ## Week 1 Quiz - Introduction to deep learning
