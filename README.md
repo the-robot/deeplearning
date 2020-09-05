@@ -6,8 +6,8 @@ I created this repo to log my progress of studying deep learning and also to sha
 
 - [x] [Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning) `02/Aug/2020 - 22/Aug/2020`
 
-- [ ] [Andrew Ng's Deep Learning](https://www.coursera.org/specializations/deep-learning)
-    - [ ] [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)
+- [ ] [Andrew Ng's Deep Learning](https://www.coursera.org/specializations/deep-learning) `29/Aug/2020 - `
+    - [ ] [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) `29/Aug/2020 - `
     - [ ] [Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network)
     - [ ] [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects)
     - [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks)
