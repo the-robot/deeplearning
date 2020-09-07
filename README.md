@@ -32,8 +32,8 @@ I created this repo to log my progress of studying deep learning and also to sha
 
 **Courses**
 
-- [https://cs231n.github.io/] (CS231n: Convolutional Neural Networks for Visual Recognition)
-- [https://web.stanford.edu/class/cs224n/] (CS224n: Natural Language Processing with Deep Learning)
+- [https://cs231n.github.io/](CS231n: Convolutional Neural Networks for Visual Recognition)
+- [https://web.stanford.edu/class/cs224n/](CS224n: Natural Language Processing with Deep Learning)
 - [https://web.stanford.edu/class/archive/cs/cs109/cs109.1208/](CS109: Probability for Computer Scientists)
 
 **Links**
