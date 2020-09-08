@@ -78,6 +78,7 @@ I created this repo to log my progress of studying deep learning and also to sha
 - [x]  [Gentle Introduction to Pooling Layers for CNN](https://machinelearningmastery.com/pooling-layers-for-convolutional-neural-networks/)
 - [ ]  [Introduction to ANN](https://towardsdatascience.com/introduction-to-artificial-neural-networks-ann-1aea15775ef9)
 - [ ]  [Batch Normalization and Dropout in Neural Networks with Pytorch](https://towardsdatascience.com/batch-normalization-and-dropout-in-neural-networks-explained-with-pytorch-47d7a8459bcd)
+- [ ]  [A Simple Way to Prevent Neural Networks from Overfitting - Paper](https://jmlr.org/papers/v15/srivastava14a.html)
 
 
 #### NLP
