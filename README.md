@@ -43,6 +43,7 @@ I created this repo to log my progress of studying deep learning and also to sha
 - https://www.deeplearningbook.org/
 - https://spinningup.openai.com/en/latest/index.html
 - https://ml-cheatsheet.readthedocs.io/ (cheat sheet)
+- https://deepai.org/definitions (ML Glossary)
 
 <br/>
 
