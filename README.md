@@ -98,6 +98,6 @@ I created this repo to log my progress of studying deep learning and also to sha
 - [ ]  [Neural Machine Translation](https://towardsdatascience.com/neural-machine-translation-15ecf6b0b)
 
 
-### Unsupervised Learning
+#### Unsupervised Learning
 - [x]  [How can Unsupervised Neural Machine Translation Work?](https://yashuseth.blog/2019/03/03/how-can-unsupervised-neural-machine-translation-work/)
 - [x]  [Unsupervised Machine Translation](https://jlibovicky.github.io/2020/01/23/MT-Weekly-Unsupervised-Translation.html)
