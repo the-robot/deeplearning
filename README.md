@@ -13,6 +13,12 @@ I created this repo to log my progress of studying deep learning and also to sha
     - [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `16/Sep/2020 - `
     - [ ] [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models)
 
+- [ ] [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
+    - [ ] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow)
+    - [ ] [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
+    - [ ] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
+    - [ ] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction)
+
 <br/>
 
 ### 2. Books to read
