@@ -86,6 +86,8 @@ I created this repo to log my progress of studying deep learning and also to sha
 - [ ]  [Introduction to ANN](https://towardsdatascience.com/introduction-to-artificial-neural-networks-ann-1aea15775ef9)
 - [ ]  [Batch Normalization and Dropout in Neural Networks with Pytorch](https://towardsdatascience.com/batch-normalization-and-dropout-in-neural-networks-explained-with-pytorch-47d7a8459bcd)
 - [ ]  [A Simple Way to Prevent Neural Networks from Overfitting - Paper](https://jmlr.org/papers/v15/srivastava14a.html)
+- [x]  [Understanding and Coding a ResNet in Keras](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
+- [x]  [How to Manually Scale Image Pixel Data for Deep Learning](https://machinelearningmastery.com/how-to-manually-scale-image-pixel-data-for-deep-learning)
 
 
 #### NLP
