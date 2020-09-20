@@ -10,7 +10,7 @@ I created this repo to log my progress of studying deep learning and also to sha
     - [x] [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) `29/Aug/2020 - 07/Sep/2020`
     - [x] [Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network) `08/Sep/2020 - 14/Sep/2020`
     - [x] [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects) `14/Sep/2020 - 15/Sep/2020`
-    - [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `16/Sep/2020 - `
+    - [ ] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `17/Sep/2020 - `
     - [ ] [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models)
 
 - [ ] [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice)
