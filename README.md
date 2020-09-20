@@ -1,4 +1,4 @@
-I created this repo to log my progress of studying deep learning and also to share [blog/article links](#6-questions-i-have-searched) that may be useful to other ppl.
+This repository contains deep learning related projects I have done over time. Also I created this to share [blog/article links](#6-questions-i-have-searched) that may be useful to other ppl.
 
 <br/>
 
