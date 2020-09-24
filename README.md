@@ -19,6 +19,10 @@ This repository contains deep learning related projects I have done over time. A
     - [ ] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
     - [ ] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction)
 
+- [ ] [Mathematics for Machine Learning Specialization](https://www.coursera.org/learn/linear-algebra-machine-learning)
+    - [ ] [Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
+    - [ ] [Multivariate Calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning)
+    - [ ] [Principal Component Analysis (PCA)](https://www.coursera.org/learn/pca-machine-learning)
 <br/>
 
 ### 2. Books to read
