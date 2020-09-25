@@ -7,7 +7,7 @@ This repository contains deep learning related projects I have done over time. A
 - [x] [Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning) `02/Aug/2020 - 22/Aug/2020`
 
 - [ ] [Andrew Ng's Deep Learning](https://www.coursera.org/specializations/deep-learning) `29/Aug/2020 - `
-    - [x] [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) `29/Aug/2020 - 07/Sep/2020`
+    - [x] [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) `29/Aug/2020 - 08/Sep/2020`
     - [x] [Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network) `08/Sep/2020 - 14/Sep/2020`
     - [x] [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects) `14/Sep/2020 - 16/Sep/2020`
     - [x] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `17/Sep/2020 - 25/Sep/2020`
