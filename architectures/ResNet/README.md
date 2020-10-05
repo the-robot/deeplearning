@@ -1,4 +1,5 @@
-[Original Paper](https://arxiv.org/abs/1512.03385)
+[Original Paper](https://arxiv.org/abs/1512.03385)  
+[Related Video](https://www.youtube.com/watch?v=DkNIBBBvcPs&ab_channel=AladdinPersson)
 
 Some questions that came to my mind when I was reading the paper
 
