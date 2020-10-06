@@ -126,41 +126,16 @@ def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> 
         is_conv_layer = True,
         stride = 2
     )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [256, 256, 1024],
-        stage_no = 4,
-        block_name = "b"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [256, 256, 1024],
-        stage_no = 4,
-        block_name = "c"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [256, 256, 1024],
-        stage_no = 4,
-        block_name = "d"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [256, 256, 1024],
-        stage_no = 4,
-        block_name = "e"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [256, 256, 1024],
-        stage_no = 4,
-        block_name = "f"
-    )
+    block_name_ordinal = ord("b")
+    for _ in range(5):
+        X = block(
+            X,
+            kernel_size = 3,
+            filters = [256, 256, 1024],
+            stage_no = 4,
+            block_name = chr(block_name_ordinal)
+        )
+        block_name_ordinal += 1
 
     # NOTE: conv5_x
     X = block(
