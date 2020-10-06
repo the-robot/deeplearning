@@ -32,13 +32,19 @@ This repository contains deep learning related projects I have done over time. A
 
 <br/>
 
-### 3. References
+### 3. Architectures
+
+- [ResNet](https://github.com/the-robot/deeplearning/tree/master/architectures/ResNet)
+
+<br/>
+
+### 4. References
 
 - [How to learn deep learning [video]](https://www.youtube.com/watch?v=rVrhuuGKxuM)
 
 <br/>
 
-### 4. Links to checkout later
+### 5. Links to checkout later
 
 **Courses**
 
@@ -57,14 +63,14 @@ This repository contains deep learning related projects I have done over time. A
 
 <br/>
 
-### 5. Blogs I following
+### 6. Blogs I following
 
 - https://jlibovicky.github.io/ (mostly about Machine Translation)
 - https://yashuseth.blog/ (general ML topics)
 
 <br/>
 
-### 6. Questions I have searched
+### 7. Questions I have searched
 
 #### General
 - [x]  [How to create a good validation set](https://www.fast.ai/2017/11/13/validation-sets/)
