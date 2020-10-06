@@ -25,6 +25,7 @@ def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3
     Implementation of the popular ResNet the following architecture.
 
     Arguments:
+    layers      -- number of blocks per layer
     input_shape -- shape of the images of the dataset
     classes     -- integer, number of classes
 
@@ -70,7 +71,7 @@ def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3
     # zero-padding
     X = ZeroPadding2D((3, 3))(X_input)
 
-    # NOTE: conv1
+    # conv1
     X = Conv2D(
         filters = 64,
         kernel_size = (7, 7),
@@ -82,89 +83,17 @@ def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3
     X = Activation("relu")(X)
     X = MaxPooling2D((3, 3), strides = (2, 2))(X)
 
-    # NOTE: conv2_x
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [64, 64, 256],
-        stage_no = 2,
-        block_name = "a",
-        is_conv_layer = True,
-        stride = 1
-    )
-    block_name_ordinal = ord("b")
-    for _ in range(layer2 - 1):
-        X = block(
-            X,
-            kernel_size = 3,
-            filters =  [64, 64, 256],
-            stage_no = 2,
-            block_name = chr(block_name_ordinal)
-        )
-        block_name_ordinal += 1
+    # conv2_x
+    X = make_layer(X, layers = layer2, kernel_size = 3, filters = [64, 64, 256], stride = 1, stage_no = 2)
 
-    # NOTE: conv3_x
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [128, 128, 512],
-        stage_no = 3,
-        block_name = "a",
-        is_conv_layer = True,
-        stride = 2
-    )
-    block_name_ordinal = ord("b")
-    for _ in range(layer3 - 1):
-        X = block(
-            X,
-            kernel_size = 3,
-            filters =  [128, 128, 512],
-            stage_no = 3,
-            block_name = chr(block_name_ordinal)
-        )
-        block_name_ordinal += 1
+    # conv3_x
+    X = make_layer(X, layers = layer3, kernel_size = 3, filters = [128, 128, 512], stride = 2, stage_no = 3)
 
-    # NOTE: conv4_x
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [256, 256, 1024],
-        stage_no = 4,
-        block_name = "a",
-        is_conv_layer = True,
-        stride = 2
-    )
-    block_name_ordinal = ord("b")
-    for _ in range(layer4 - 1):
-        X = block(
-            X,
-            kernel_size = 3,
-            filters = [256, 256, 1024],
-            stage_no = 4,
-            block_name = chr(block_name_ordinal)
-        )
-        block_name_ordinal += 1
+    # conv4_x
+    X = make_layer(X, layers = layer4, kernel_size = 3, filters = [256, 256, 1024], stride = 2, stage_no = 4)
 
-    # NOTE: conv5_x
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [512, 512, 2048],
-        stage_no = 5,
-        block_name = "a",
-        is_conv_layer = True,
-        stride = 1
-    )
-    block_name_ordinal = ord("b")
-    for _ in range(layer5 - 1):
-        X = block(
-            X,
-            kernel_size = 3,
-            filters = [512, 512, 2048],
-            stage_no = 5,
-            block_name = chr(block_name_ordinal)
-        )
-        block_name_ordinal += 1
+    # conv5_x
+    X = make_layer(X, layers = layer5, kernel_size = 3, filters = [512, 512, 2048], stride = 1, stage_no = 5)
 
     # average pooling
     X = AveragePooling2D((2, 2), name = "avg_pool")(X)
@@ -180,3 +109,44 @@ def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3
 
     model = Model(inputs = X_input, outputs = X, name = "ResNet50")
     return model
+
+def make_layer(X: tf.Tensor, layers: int, kernel_size: int, filters: typing.List[int], stride: int, stage_no: int) -> tf.Tensor:
+    """
+    Method to create one conv-identity layer for ResNet.
+
+    Arguments:
+    X           -- input tensor
+    layers      -- number of blocks per layer
+    kernel_size -- size of the kernel for the block
+    filters     -- number of filters/channels
+    stride      -- number of stride for downsampling the input
+    stage_no    -- stage number just to name the layer
+
+    Returns:
+    X           -- output tensor
+    """
+
+    # create convolution block
+    X = block(
+        X,
+        kernel_size = kernel_size,
+        filters = filters,
+        stage_no = stage_no,
+        block_name = "a",
+        is_conv_layer = True,
+        stride = stride
+    )
+
+    # create identity block
+    block_name_ordinal = ord("b")
+    for _ in range(layers - 1):
+        X = block(
+            X,
+            kernel_size = kernel_size,
+            filters =  filters,
+            stage_no = stage_no,
+            block_name = chr(block_name_ordinal)
+        )
+        block_name_ordinal += 1
+
+    return X
