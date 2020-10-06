@@ -39,6 +39,7 @@ Deep Learning architectures I have implemented from scratch.
 - [ResNet](https://github.com/the-robot/deeplearning/tree/master/architectures/ResNet)
 - [VGGNet](#) *todo*
 - [AlexNet](#) *todo*
+- [LeNet5](#) *todo*
 
 <br/>
 
