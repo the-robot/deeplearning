@@ -20,18 +20,9 @@ import typing
 tf.config.run_functions_eagerly(True)
 
 @tf.function
-def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> Model:
+def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> Model:
     """
-    Please refer to the original paper for more information.
-
-    Implementation of the popular ResNet50 the following architecture:
-    CONV2D -> BATCHNORM -> RELU -> MAXPOOL  // conv1
-        -> CONVBLOCK -> IDBLOCK * 2         // conv2_x
-        -> CONVBLOCK -> IDBLOCK * 3         // conv3_x
-        -> CONVBLOCK -> IDBLOCK * 5         // conv4_x
-        -> CONVBLOCK -> IDBLOCK * 2         // conv5_x
-        -> AVGPOOL
-        -> TOPLAYER
+    Implementation of the popular ResNet the following architecture.
 
     Arguments:
     input_shape -- shape of the images of the dataset
@@ -39,7 +30,39 @@ def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> 
 
     Returns:
     model       -- a Model() instance in Keras
+
+
+    Model Architecture:
+    Resnet50:
+        CONV2D -> BATCHNORM -> RELU -> MAXPOOL  // conv1
+            -> CONVBLOCK -> IDBLOCK * 2         // conv2_x
+            -> CONVBLOCK -> IDBLOCK * 3         // conv3_x
+            -> CONVBLOCK -> IDBLOCK * 5         // conv4_x
+            -> CONVBLOCK -> IDBLOCK * 2         // conv5_x
+            -> AVGPOOL
+            -> TOPLAYER
+
+    Resnet101:
+        CONV2D -> BATCHNORM -> RELU -> MAXPOOL  // conv1
+            -> CONVBLOCK -> IDBLOCK * 2         // conv2_x
+            -> CONVBLOCK -> IDBLOCK * 3         // conv3_x
+            -> CONVBLOCK -> IDBLOCK * 22        // conv4_x
+            -> CONVBLOCK -> IDBLOCK * 2         // conv5_x
+            -> AVGPOOL
+            -> TOPLAYER
+
+    Resnet152:
+        CONV2D -> BATCHNORM -> RELU -> MAXPOOL  // conv1
+            -> CONVBLOCK -> IDBLOCK * 2         // conv2_x
+            -> CONVBLOCK -> IDBLOCK * 7         // conv3_x
+            -> CONVBLOCK -> IDBLOCK * 35        // conv4_x
+            -> CONVBLOCK -> IDBLOCK * 2         // conv5_x
+            -> AVGPOOL
+            -> TOPLAYER
     """
+
+    # get layers (layer1 is always the same so no need to provide)
+    layer2, layer3, layer4, layer5 = layers
 
     # convert input shape into tensor
     X_input = Input(input_shape)
@@ -69,20 +92,16 @@ def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> 
         is_conv_layer = True,
         stride = 1
     )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [64, 64, 256],
-        stage_no = 2,
-        block_name = "b"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [64, 64, 256],
-        stage_no = 2,
-        block_name = "c"
-    )
+    block_name_ordinal = ord("b")
+    for _ in range(layer2 - 1):
+        X = block(
+            X,
+            kernel_size = 3,
+            filters =  [64, 64, 256],
+            stage_no = 2,
+            block_name = chr(block_name_ordinal)
+        )
+        block_name_ordinal += 1
 
     # NOTE: conv3_x
     X = block(
@@ -94,27 +113,16 @@ def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> 
         is_conv_layer = True,
         stride = 2
     )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [128, 128, 512],
-        stage_no = 3,
-        block_name = "b"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [128, 128, 512],
-        stage_no = 3,
-        block_name = "c"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [128, 128, 512],
-        stage_no = 3,
-        block_name = "d"
-    )
+    block_name_ordinal = ord("b")
+    for _ in range(layer3 - 1):
+        X = block(
+            X,
+            kernel_size = 3,
+            filters =  [128, 128, 512],
+            stage_no = 3,
+            block_name = chr(block_name_ordinal)
+        )
+        block_name_ordinal += 1
 
     # NOTE: conv4_x
     X = block(
@@ -127,7 +135,7 @@ def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> 
         stride = 2
     )
     block_name_ordinal = ord("b")
-    for _ in range(5):
+    for _ in range(layer4 - 1):
         X = block(
             X,
             kernel_size = 3,
@@ -147,20 +155,16 @@ def ResNet50(input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> 
         is_conv_layer = True,
         stride = 1
     )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [512, 512, 2048],
-        stage_no = 5,
-        block_name = "b"
-    )
-    X = block(
-        X,
-        kernel_size = 3,
-        filters = [512, 512, 2048],
-        stage_no = 5,
-        block_name = "c"
-    )
+    block_name_ordinal = ord("b")
+    for _ in range(layer5 - 1):
+        X = block(
+            X,
+            kernel_size = 3,
+            filters = [512, 512, 2048],
+            stage_no = 5,
+            block_name = chr(block_name_ordinal)
+        )
+        block_name_ordinal += 1
 
     # average pooling
     X = AveragePooling2D((2, 2), name = "avg_pool")(X)
