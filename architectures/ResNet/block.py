@@ -1,4 +1,4 @@
-# This example based on deeplearning.ai CNN course.
+# Tensorflow v.2.3.1
 
 from tensorflow.keras.layers import (
     Activation,
