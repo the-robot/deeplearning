@@ -40,6 +40,7 @@ Deep Learning architectures I have implemented from scratch.
 - [VGGNet](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet)
 - [AlexNet](#) *todo*
 - [LeNet5](#) *todo*
+- [Inception v1](#) *todo*
 
 <br/>
 
