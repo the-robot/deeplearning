@@ -16,7 +16,7 @@ This repository contains deep learning related projects I have done over time. A
 - [ ] [TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `07/Oct/2020 - `
     - [ ] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) `07/Oct/2020 - `
     - [x] [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow) `07/Oct/2020 - 09/Oct/2020`
-    - [ ] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
+    - [x] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow) `09/Oct/2020 - 10/Oct/2020`
     - [ ] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction)
 
 - [ ] [Mathematics for Machine Learning Specialization](https://www.coursera.org/learn/linear-algebra-machine-learning)
