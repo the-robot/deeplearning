@@ -13,7 +13,7 @@ This repository contains deep learning related projects I have done over time. A
     - [x] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `17/Sep/2020 - 25/Sep/2020`
     - [x] [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models) `27/Sep/2020 - 04/Oct/2020`
 
-- [ ] [TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `07/Oct/2020 - `
+- [ ] [Deeplearning.ai TensorFlow Developer](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `07/Oct/2020 - `
     - [ ] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) `07/Oct/2020 - `
     - [x] [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow) `07/Oct/2020 - 09/Oct/2020`
     - [x] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow) `09/Oct/2020 - 10/Oct/2020`
@@ -25,7 +25,7 @@ This repository contains deep learning related projects I have done over time. A
     - [ ] [Natural Language Processing with Sequence Models](https://www.coursera.org/learn/sequence-models-in-nlp)
     - [ ] [Natural Language Processing with Attention Models](https://www.coursera.org/learn/attention-models-in-nlp)
 
-- [ ] [Mathematics for Machine Learning Specialization](https://www.coursera.org/learn/linear-algebra-machine-learning)
+- [ ] [Mathematics for Machine Learning](https://www.coursera.org/learn/linear-algebra-machine-learning)
     - [ ] [Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
     - [ ] [Multivariate Calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning)
     - [ ] [Principal Component Analysis (PCA)](https://www.coursera.org/learn/pca-machine-learning)
