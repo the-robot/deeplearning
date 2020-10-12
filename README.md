@@ -4,25 +4,32 @@ This repository contains deep learning related projects I have done over time. A
 
 ### 1. Courses I am taking
 
-- [x] [Andrew Ng's Machine Learning](https://www.coursera.org/learn/machine-learning) `02/Aug/2020 - 22/Aug/2020`
+- [x] [Deeplearning.ai Machine Learning](https://www.coursera.org/learn/machine-learning) `02/Aug/2020 - 22/Aug/2020`
 
-- [x] [Andrew Ng's Deep Learning](https://www.coursera.org/specializations/deep-learning) `29/Aug/2020 - 04/Oct/2020`
+- [x] [Deeplearning.ai Deep Learning](https://www.coursera.org/specializations/deep-learning) `29/Aug/2020 - 04/Oct/2020`
     - [x] [Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning) `29/Aug/2020 - 08/Sep/2020`
     - [x] [Improving Deep Neural Networks](https://www.coursera.org/learn/deep-neural-network) `08/Sep/2020 - 14/Sep/2020`
     - [x] [Structuring Machine Learning Projects](https://www.coursera.org/learn/machine-learning-projects) `14/Sep/2020 - 16/Sep/2020`
     - [x] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `17/Sep/2020 - 25/Sep/2020`
     - [x] [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models) `27/Sep/2020 - 04/Oct/2020`
 
-- [ ] [DeepLearning.AI TensorFlow Developer Professional Certificate](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `06/Oct/2020 - `
-    - [ ] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) `06/Oct/2020 - `
-    - [ ] [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow)
-    - [ ] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow)
-    - [ ] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction)
+- [ ] [Deeplearning.ai TensorFlow Developer](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `07/Oct/2020 - `
+    - [ ] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) `07/Oct/2020 - `
+    - [x] [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow) `07/Oct/2020 - 09/Oct/2020`
+    - [x] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow) `09/Oct/2020 - 10/Oct/2020`
+    - [x] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction) `10/Oct/2020 - 11/Oct/2020`
 
-- [ ] [Mathematics for Machine Learning Specialization](https://www.coursera.org/learn/linear-algebra-machine-learning)
+- [ ] [Deeplearning.ai Natural Language Processing](https://www.coursera.org/specializations/natural-language-processing)
+    - [ ] [Natural Language Processing with Classification and Vector Spaces](https://www.coursera.org/learn/classification-vector-spaces-in-nlp)
+    - [ ] [Natural Language Processing with Probabilistic Models](https://www.coursera.org/learn/probabilistic-models-in-nlp)
+    - [ ] [Natural Language Processing with Sequence Models](https://www.coursera.org/learn/sequence-models-in-nlp)
+    - [ ] [Natural Language Processing with Attention Models](https://www.coursera.org/learn/attention-models-in-nlp)
+
+- [ ] [Mathematics for Machine Learning](https://www.coursera.org/learn/linear-algebra-machine-learning)
     - [ ] [Linear Algebra](https://www.coursera.org/learn/linear-algebra-machine-learning)
     - [ ] [Multivariate Calculus](https://www.coursera.org/learn/multivariate-calculus-machine-learning)
     - [ ] [Principal Component Analysis (PCA)](https://www.coursera.org/learn/pca-machine-learning)
+
 <br/>
 
 ### 2. Books to read
@@ -40,6 +47,7 @@ Deep Learning architectures I have implemented from scratch.
 - [VGGNet](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet)
 - [AlexNet](#) *todo*
 - [LeNet5](#) *todo*
+- [Inception v1](#) *todo*
 
 <br/>
 
