@@ -7,5 +7,7 @@ Some questions I had when I was reading the paper
 
 Some other useful links
 - [VGGNet summary](https://medium.com/coinmonks/paper-review-of-vggnet-1st-runner-up-of-ilsvlc-2014-image-classification-d02355543a11)
+- [VGGNet in Keras](https://towardsdatascience.com/step-by-step-vgg16-implementation-in-keras-for-beginners-a833c686ae6c)
+- [VGGNet with Batch Normalization](https://gist.github.com/jjangsangy/38d644606130f05b806a4261c493a820)
 
 This code is inspired by [VGGNet implement from scratch in PyTorch by aladdinpersson](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/CNN_architectures/pytorch_vgg_implementation.py).
