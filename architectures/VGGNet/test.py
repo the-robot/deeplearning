@@ -11,12 +11,33 @@ import numpy as np
 # After convolution blocks; flatten the output and use 4096x4096x1000 Linear Layers
 # with soft-max at the end
 # NOTE: 1000 is the number of classes for prediction
+VGG11 = [
+         64, "M",            # Layer 1
+         128, "M",           # Layer 2
+    256, 256, "M",           # Layer 3
+    512, 512, "M",           # Layer 4
+    512, 512, "M",           # Layer 5
+]
+VGG13 = [
+     64,  64, 'M',           # Layer 1
+    128, 128, 'M',           # Layer 2
+    256, 256, "M",           # Layer 3
+    512, 512, "M",           # Layer 4
+    512, 512, "M",           # Layer 5
+]
 VGG16 = [
-     64,  64, 'M', # Layer 1
-    128, 128, 'M', # Layer 2
-    256, 256, 'M', # Layer 3
-    512, 512, 'M', # Layer 4
-    512, 512, 'M', # Layer 5
+          64,  64, 'M',      # Layer 1
+         128, 128, 'M',      # Layer 2
+    256, 256, 256, 'M',      # Layer 3
+    512, 512, 512, 'M',      # Layer 4
+    512, 512, 512, 'M',      # Layer 5
+]
+VGG19 = [
+               64,  64, 'M', # Layer 1
+              128, 128, 'M', # Layer 2
+    256, 256, 256, 256, 'M', # Layer 3
+    512, 512, 512, 512, 'M', # Layer 4
+    512, 512, 512, 512, 'M', # Layer 5
 ]
 
 if __name__ == "__main__":
