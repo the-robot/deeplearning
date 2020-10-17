@@ -47,7 +47,7 @@ Neural net architectures I have implemented from scratch.
 - [VGGNet](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet)
 - [AlexNet](https://github.com/the-robot/deeplearning/tree/master/architectures/AlexNet) 
 - [LeNet5](#) *todo*
-- [Inception v1](#) *todo*
+- [GoogLeNet / Inception v1](#) *todo*
 
 <br/>
 
