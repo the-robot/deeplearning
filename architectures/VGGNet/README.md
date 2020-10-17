@@ -7,3 +7,5 @@ Some questions I had when I was reading the paper
 
 Some other useful links
 - [VGGNet summary](https://medium.com/coinmonks/paper-review-of-vggnet-1st-runner-up-of-ilsvlc-2014-image-classification-d02355543a11)
+
+This code is inspired by [VGGNet implement from scratch in PyTorch by aladdinpersson](https://github.com/aladdinpersson/Machine-Learning-Collection/blob/master/ML/Pytorch/CNN_architectures/pytorch_vgg_implementation.py).
