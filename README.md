@@ -54,6 +54,8 @@ Neural net architectures I have implemented from scratch.
 ### 4. References
 
 - [How to learn deep learning [video]](https://www.youtube.com/watch?v=rVrhuuGKxuM)
+- [Andrew Ng's career advice and how to read research paper](https://www.youtube.com/watch?v=733m6qBH-jI&t=1930s)
+- [How to read an academic paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
 
 <br/>
 
