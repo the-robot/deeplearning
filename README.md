@@ -41,7 +41,7 @@ This repository contains deep learning related projects I have done over time. A
 
 ### 3. Architectures
 
-Deep Learning architectures I have implemented from scratch.
+Neural net architectures I have implemented from scratch.
 
 - [ResNet](https://github.com/the-robot/deeplearning/tree/master/architectures/ResNet)
 - [VGGNet](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet)
