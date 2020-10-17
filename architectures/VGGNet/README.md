@@ -1,4 +1,4 @@
-[Original Paper - Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)  
+[Original Paper - Very Deep Convolutional Networks for Large-Scale Image Recognition (2014)](https://arxiv.org/abs/1409.1556)  
 [Related Video](https://www.youtube.com/watch?v=ACmuBbuXn20)
 
 Some questions I had when I was reading the paper
