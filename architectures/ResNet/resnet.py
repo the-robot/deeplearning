@@ -20,11 +20,12 @@ import typing
 tf.config.run_functions_eagerly(True)
 
 @tf.function
-def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> Model:
+def ResNet(name: str, layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> Model:
     """
     Implementation of the popular ResNet the following architecture.
 
     Arguments:
+    name        -- name of the architecture
     layers      -- number of blocks per layer
     input_shape -- shape of the images of the dataset
     classes     -- integer, number of classes
@@ -107,7 +108,7 @@ def ResNet(layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3
         kernel_initializer = "glorot_uniform"
     )(X)
 
-    model = Model(inputs = X_input, outputs = X, name = "ResNet50")
+    model = Model(inputs = X_input, outputs = X, name = name)
     return model
 
 def make_layer(X: tf.Tensor, layers: int, kernel_size: int, filters: typing.List[int], stride: int, stage_no: int) -> tf.Tensor:

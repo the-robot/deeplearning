@@ -4,7 +4,7 @@ import numpy as np
 
 if __name__ == "__main__":
     # test ResNet50
-    model = ResNet(layers = [3, 4, 6, 3], input_shape = (64, 64, 3), classes = 6)
+    model = ResNet(name = "Resnet50", layers = [3, 4, 6, 3], input_shape = (64, 64, 3), classes = 6)
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
     X_train = np.random.randn(1080, 64, 64, 3).astype('f')
