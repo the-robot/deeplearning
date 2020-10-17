@@ -1,4 +1,4 @@
-[Original Paper - Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)  
+[Original Paper - Deep Residual Learning for Image Recognition (2015)](https://arxiv.org/abs/1512.03385)  
 [Related Video](https://www.youtube.com/watch?v=DkNIBBBvcPs&ab_channel=AladdinPersson)
 
 Some questions that came to my mind when I was reading the paper
