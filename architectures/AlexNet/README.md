@@ -1,0 +1,1 @@
+[Original Paper - ImageNet Classification with Deep Convolutional Neural Networks](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf)  
