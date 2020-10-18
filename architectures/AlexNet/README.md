@@ -6,3 +6,4 @@ Some questions I had when I was reading the paper
 - [Why ReLU is better than the other activation functions](https://datascience.stackexchange.com/questions/23493/why-relu-is-better-than-the-other-activation-functions)
 - [Why does overlapped pooling help reduce overfitting in conv nets?](https://stats.stackexchange.com/questions/283261/why-does-overlapped-pooling-help-reduce-overfitting-in-conv-nets)
 - [Importance of local response normalization in CNN](https://stats.stackexchange.com/questions/145768/importance-of-local-response-normalization-in-cnn)
+- [What Is Local Response Normalization In Convolutional Neural Networks](https://prateekvjoshi.com/2016/04/05/what-is-local-response-normalization-in-convolutional-neural-networks/)
