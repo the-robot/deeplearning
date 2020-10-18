@@ -134,3 +134,6 @@ Neural net architectures I have implemented from scratch.
 #### Unsupervised Learning
 - [x]  [How can Unsupervised Neural Machine Translation Work?](https://yashuseth.blog/2019/03/03/how-can-unsupervised-neural-machine-translation-work/)
 - [x]  [Unsupervised Machine Translation](https://jlibovicky.github.io/2020/01/23/MT-Weekly-Unsupervised-Translation.html)
+
+#### Framework Related
+- [x] [Sequential API vs Functional API model in Keras](https://medium.com/@hanify/sequential-api-vs-functional-api-model-in-keras-266823d7cd5e)
