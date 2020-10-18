@@ -21,11 +21,11 @@ def AlexNet(input_shape: typing.Tuple[int], classes: int = 1000) -> Model:
     Implementation of the AlexNet architecture.
 
     Arguments:
-    input_shape  -- shape of the images of the dataset
-    classes      -- integer, number of classes
+    input_shape -- shape of the images of the dataset
+    classes     -- integer, number of classes
 
     Returns:
-    model        -- a Model() instance in Keras
+    model       -- a Model() instance in Keras
 
     Note:
     when you read the paper, you will notice that the channels (filters) in the diagram is only
