@@ -1,1 +1,4 @@
 [Original Paper - ImageNet Classification with Deep Convolutional Neural Networks (2012)](https://www.cs.toronto.edu/~hinton/absps/imagenet.pdf)  
+
+Some questions I had when I was reading the paper
+- [What does the term saturating nonlinearities mean?](https://stats.stackexchange.com/questions/174295/what-does-the-term-saturating-nonlinearities-mean)
