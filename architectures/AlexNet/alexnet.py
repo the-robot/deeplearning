@@ -1,12 +1,12 @@
 # Tensorflow v2.3.1
 
 from tensorflow.keras.layers import (
-    BatchNormalization,
     Conv2D,
     Dense,
     Dropout,
     Flatten,
     Input,
+    Lambda,
     MaxPooling2D,
 )
 from tensorflow.keras import Model
@@ -49,7 +49,7 @@ def AlexNet(input_shape: typing.Tuple[int], classes: int = 1000) -> Model:
         padding = "same",
     )(X_input)
     X = MaxPooling2D(pool_size = (3, 3), strides = (2, 2))(X)
-    X = BatchNormalization()(X)
+    X = Lambda(tf.nn.local_response_normalization)(X)
 
     # layer 2
     X = Conv2D(
@@ -60,7 +60,7 @@ def AlexNet(input_shape: typing.Tuple[int], classes: int = 1000) -> Model:
         padding = "same",
     )(X)
     X = MaxPooling2D(pool_size = (3, 3), strides = (2, 2))(X)
-    X = BatchNormalization()(X)
+    X = Lambda(tf.nn.local_response_normalization)(X)
 
     # layer 3
     X = Conv2D(
@@ -89,7 +89,7 @@ def AlexNet(input_shape: typing.Tuple[int], classes: int = 1000) -> Model:
         padding = "same",
     )(X)
     X = MaxPooling2D(pool_size = (3, 3), strides = (2, 2))(X)
-    X = BatchNormalization()(X)
+    X = Lambda(tf.nn.local_response_normalization)(X)
 
     # NOTE: layer 6-7 is fully-connected layers
     # layer 6
