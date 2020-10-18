@@ -3,3 +3,5 @@
 **/runs/**
 **/.ipynb_checkpoints/**
 **/Pipfile
+**/.vscode
+**/pythonenv3.8
