@@ -4,7 +4,6 @@ from tensorflow.keras.layers import (
     AveragePooling2D,
     Conv2D,
     Dense,
-    Dropout,
     Flatten,
     Input,
 )
