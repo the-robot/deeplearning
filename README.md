@@ -53,7 +53,7 @@ Neural net architectures I have implemented from scratch.
 
 ### 4. Object Detection
 
-- [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
+- [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
 
 ### 5. References
 
