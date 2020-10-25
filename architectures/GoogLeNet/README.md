@@ -5,6 +5,7 @@
 
 
 - [Review: GoogLeNet (Inception v1)](https://medium.com/coinmonks/paper-review-of-googlenet-inception-v1-winner-of-ilsvlc-2014-image-classification-c2b3565a64e7)
+- [Understanding GoogLeNet Model – CNN Architecture](https://www.geeksforgeeks.org/understanding-googlenet-model-cnn-architecture/)
 - [Ensemble Methods in Machine Learning: What are They and Why Use Them?](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f)
 - [Neural Networks Ensemble](https://towardsdatascience.com/neural-networks-ensemble-33f33bea7df3)
 - [Multiscale Methods and Machine Learning](https://www.kdnuggets.com/2018/03/multiscale-methods-machine-learning.html)
