@@ -8,7 +8,7 @@
 
 [Ensemble Methods in Machine Learning: What are They and Why Use Them?](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f)
 
-[Multiscale Methods and Machine Learning](ttps://www.kdnuggets.com/2018/03/multiscale-methods-machine-learning.html)
+[Multiscale Methods and Machine Learning](https://www.kdnuggets.com/2018/03/multiscale-methods-machine-learning.html)
 
 [What do the terms “dense” and “sparse” mean in the context of neural networks?](https://stats.stackexchange.com/questions/266996/what-do-the-terms-dense-and-sparse-mean-in-the-context-of-neural-networks)
 
