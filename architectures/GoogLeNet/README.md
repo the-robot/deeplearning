@@ -11,3 +11,4 @@
 - [Multiscale Methods and Machine Learning](https://www.kdnuggets.com/2018/03/multiscale-methods-machine-learning.html)
 - [What do the terms “dense” and “sparse” mean in the context of neural networks?](https://stats.stackexchange.com/questions/266996/what-do-the-terms-dense-and-sparse-mean-in-the-context-of-neural-networks)
 - [The Sparse Future of Deep Learning](https://towardsdatascience.com/the-sparse-future-of-deep-learning-bce05e8e094a)
+- [Understanding Auxiliary Loss](https://stats.stackexchange.com/a/436203)
