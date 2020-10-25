@@ -55,6 +55,8 @@ Neural net architectures I have implemented from scratch.
 
 - [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
 
+<br/>
+
 ### 5. References
 
 - [How to learn deep learning [video]](https://www.youtube.com/watch?v=rVrhuuGKxuM)
