@@ -119,7 +119,7 @@ Neural net architectures I have implemented from scratch.
 - [ ]  [A Simple Way to Prevent Neural Networks from Overfitting - Paper](https://jmlr.org/papers/v15/srivastava14a.html)
 - [x]  [Understanding and Coding a ResNet in Keras](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 - [x]  [How to Manually Scale Image Pixel Data for Deep Learning](https://machinelearningmastery.com/how-to-manually-scale-image-pixel-data-for-deep-learning)
-_ [x]  [Understanding Parameter Sharing (or weights replication) Within Convolutional Neural Networks](https://towardsdatascience.com/understanding-parameter-sharing-or-weights-replication-within-convolutional-neural-networks-cc26db7b645a)
+- [x]  [Understanding Parameter Sharing (or weights replication) Within Convolutional Neural Networks](https://towardsdatascience.com/understanding-parameter-sharing-or-weights-replication-within-convolutional-neural-networks-cc26db7b645a)
 
 #### NLP
 - [x]  [An Intuitive Understanding of Word Embeddings: From Count Vectors to Word2Vec](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
