@@ -2,7 +2,6 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-from tensorflow.keras.optimizers import Adam
 from googlenet import GoogLeNet
 
 if __name__ == "__main__":
