@@ -15,7 +15,6 @@ import typing
 
 tf.config.run_functions_eagerly(True)
 
-
 @tf.function
 def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 1000) -> Model:
     """
