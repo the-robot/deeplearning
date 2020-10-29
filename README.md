@@ -51,7 +51,13 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 4. References
+### 4. Object Detection
+
+- [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
+
+<br/>
+
+### 5. References
 
 - [How to learn deep learning [video]](https://www.youtube.com/watch?v=rVrhuuGKxuM)
 - [Andrew Ng's career advice and how to read research paper](https://www.youtube.com/watch?v=733m6qBH-jI&t=1930s)
@@ -59,7 +65,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 5. Links to checkout later
+### 6. Links to checkout later
 
 **Courses**
 
@@ -78,14 +84,14 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 6. Blogs I following
+### 7. Blogs I following
 
 - https://jlibovicky.github.io/ (mostly about Machine Translation)
 - https://yashuseth.blog/ (general ML topics)
 
 <br/>
 
-### 7. Questions I have searched
+### 8. Questions I have searched
 
 #### General
 - [x]  [How to create a good validation set](https://www.fast.ai/2017/11/13/validation-sets/)
@@ -113,7 +119,7 @@ Neural net architectures I have implemented from scratch.
 - [ ]  [A Simple Way to Prevent Neural Networks from Overfitting - Paper](https://jmlr.org/papers/v15/srivastava14a.html)
 - [x]  [Understanding and Coding a ResNet in Keras](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 - [x]  [How to Manually Scale Image Pixel Data for Deep Learning](https://machinelearningmastery.com/how-to-manually-scale-image-pixel-data-for-deep-learning)
-
+- [x]  [Understanding Parameter Sharing (or weights replication) Within Convolutional Neural Networks](https://towardsdatascience.com/understanding-parameter-sharing-or-weights-replication-within-convolutional-neural-networks-cc26db7b645a)
 
 #### NLP
 - [x]  [An Intuitive Understanding of Word Embeddings: From Count Vectors to Word2Vec](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
