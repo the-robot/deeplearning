@@ -37,6 +37,8 @@ def convolution_block(
         strides = (stride, stride),
         padding = padding,
     )(X)
+    # batch normalization is not in original paper because it was not invented at that time
+    # however I am using it here because it will improve the performance
     X = BatchNormalization()(X)
     X = Activation("relu")(X)
 
