@@ -19,14 +19,14 @@ tf.config.run_functions_eagerly(True)
 @tf.function
 def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 1000) -> Model:
     """
-    Implementation of the popular ResNet the following architecture.
+    Implementation of the popular GoogLeNet aka Inception v1 architecture.
 
     Arguments:
-    input_shape  -- shape of the images of the dataset
-    classes      -- integer, number of classes
+    input_shape -- shape of the images of the dataset
+    classes     -- integer, number of classes
 
     Returns:
-    model        -- a Model() instance in Keras
+    model       -- a Model() instance in Keras
     """
 
     # convert input shape into tensor
