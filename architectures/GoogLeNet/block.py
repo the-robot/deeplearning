@@ -4,6 +4,7 @@ from tensorflow.keras.layers import (
     Activation,
     BatchNormalization,
     Conv2D,
+    MaxPooling2D,
     concatenate,
 )
 import tensorflow as tf
@@ -107,7 +108,7 @@ def inception_block(
     )
 
     # fourth branch
-    pool_projection = MaxPool2D(
+    pool_projection = MaxPooling2D(
         pool_size = (2, 2),
         strides = (1, 1),
         padding = "same",
