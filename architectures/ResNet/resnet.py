@@ -22,7 +22,7 @@ tf.config.run_functions_eagerly(True)
 @tf.function
 def ResNet(name: str, layers: typing.List[int], input_shape: typing.Tuple[int] = (64, 64, 3), classes: int = 6) -> Model:
     """
-    Implementation of the popular ResNet the following architecture.
+    Implementation of the popular ResNet architecture.
 
     Arguments:
     name        -- name of the architecture
