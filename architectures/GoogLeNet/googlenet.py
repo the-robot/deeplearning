@@ -19,6 +19,7 @@ tf.config.run_functions_eagerly(True)
 def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 1000) -> Model:
     """
     Implementation of the popular GoogLeNet aka Inception v1 architecture.
+    Refer to the original paper, page 6 - table 1 for inception block filter sizes.
 
     Arguments:
     input_shape -- shape of the images of the dataset
