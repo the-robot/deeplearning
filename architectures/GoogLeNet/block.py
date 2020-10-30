@@ -6,6 +6,7 @@ from tensorflow.keras.layers import (
     BatchNormalization,
     Conv2D,
     Dense,
+    Dropout,
     Flatten,
     MaxPooling2D,
     concatenate,
@@ -137,7 +138,7 @@ def auxiliary_block(
 
     Arguments:
     X       -- input tensor of shape (m, H, W, filters)
-    classes -- integer, number of classes
+    classes -- number of classes for classification
 
     Return:
     X       -- output of the identity block, tensor of shape (H, W, filters)

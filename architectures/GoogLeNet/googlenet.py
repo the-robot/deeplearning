@@ -1,6 +1,10 @@
 # Tensorflow v.2.3.1
 
-from block import convolution_block, inception_block
+from block import (
+    auxiliary_block,
+    convolution_block,
+    inception_block,
+)
 
 from tensorflow.keras.layers import (
     AveragePooling2D,
@@ -23,7 +27,7 @@ def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 100
 
     Arguments:
     input_shape -- shape of the images of the dataset
-    classes     -- integer, number of classes
+    classes     -- number of classes for classification
 
     Returns:
     model       -- a Model() instance in Keras
@@ -31,6 +35,11 @@ def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 100
 
     # convert input shape into tensor
     X_input = Input(input_shape)
+
+    # NOTE: auxiliary layers are only used in trainig phase to improve performance
+    #       because they act as regularization and prevent vanishing gradient problem
+    auxiliary1 = None # to store auxiliary layers classification value
+    auxiliary2 = None
 
     # layer 1 (convolution block)
     X = convolution_block(
@@ -112,6 +121,9 @@ def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 100
         pool_size = 64,
     )
 
+    # First Auxiliary Softmax Classifier
+    auxiliary1 = auxiliary_block(X, classes = classes)
+
     # layer 9 (inception 4b)
     X = inception_block(
         X,
@@ -144,6 +156,9 @@ def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 100
         filters_5x5 = 64,
         pool_size = 64,
     )
+
+    # Second Auxiliary Softmax Classifier
+    auxiliary2 = auxiliary_block(X, classes = classes)
 
     # layer 12 (inception 4e)
     X = inception_block(
@@ -198,5 +213,5 @@ def GoogLeNet(input_shape: typing.Tuple[int] = (224, 224, 3), classes: int = 100
     # layer 18 (fully-connected layer with softmax activation)
     X = Dense(units = classes, activation='softmax')(X)
 
-    model = Model(X_input, outputs = X, name='GoogLeNet/Inception-v1')
+    model = Model(X_input, outputs = [X, auxiliary1, auxiliary2], name='GoogLeNet/Inception-v1')
     return model
