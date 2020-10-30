@@ -2,8 +2,11 @@
 
 from tensorflow.keras.layers import (
     Activation,
+    AveragePooling2D,
     BatchNormalization,
     Conv2D,
+    Dense,
+    Flatten,
     MaxPooling2D,
     concatenate,
 )
@@ -23,7 +26,7 @@ def convolution_block(
 
     Arguments:
     X           -- input tensor of shape (m, H, W, filters)
-    filters     -- defining the number of filters in the CONV layers
+    filters      -- defining the number of filters in the CONV layers
     kernel_size -- integer, specifying the shape of the middle CONV's window for the main path
     stride      -- integer specifying the stride to be used
     padding     -- padding type, same or valid. Default is valid
@@ -122,3 +125,40 @@ def inception_block(
 
     # concat by channel/filter
     return concatenate(inputs = [conv_1x1, conv_3x3, conv_5x5, pool_projection], axis = 3)
+
+@tf.function
+def auxiliary_block(
+    X: tf.Tensor,
+    classes: int,
+) -> tf.Tensor:
+    """
+    Auxiliary block for GoogLeNet.
+    Refer to the original paper, page 8 for the auxiliary layer specification.
+
+    Arguments:
+    X       -- input tensor of shape (m, H, W, filters)
+    classes -- integer, number of classes
+
+    Return:
+    X       -- output of the identity block, tensor of shape (H, W, filters)
+    """
+
+    X = AveragePooling2D(
+        pool_size = (5, 5),
+        padding = "same",
+        strides = (3, 3),
+    )(X)
+    X = convolution_block(
+        X,
+        filters = 128,
+        kernel_size = 1,
+        stride = 1,
+        padding = "same",
+    )
+    X = Flatten()(X)
+    X = Dense(units = 1024, activation = "relu")(X)
+    X = Dropout(rate = 0.7)(X)
+    X = Dense(units = classes)(X)
+    X = Activation("softmax")(X)
+
+    return X
