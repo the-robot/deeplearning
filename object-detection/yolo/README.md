@@ -7,3 +7,4 @@
 - [mAP (mean Average Precision) for Object Detection](https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173)
 - [mean Average Precision (video)](https://youtu.be/FppOzcDvaDI)
 - [Non-maximum Suppression (NMS)](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) `to fix multiple detections although it is not very effective as mentioned in paper, page 4.`
+- [Non-max Suppression (video)](https://youtu.be/YDkjWEN8jNA)
