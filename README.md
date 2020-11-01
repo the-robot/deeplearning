@@ -13,8 +13,8 @@ This repository contains deep learning related projects I have done over time. A
     - [x] [Convolutional Neural Networks](https://www.coursera.org/learn/convolutional-neural-networks) `17/Sep/2020 - 25/Sep/2020`
     - [x] [Sequence Models](https://www.coursera.org/learn/nlp-sequence-models) `27/Sep/2020 - 04/Oct/2020`
 
-- [ ] [Deeplearning.ai TensorFlow Developer](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `07/Oct/2020 - `
-    - [ ] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) `07/Oct/2020 - `
+- [x] [Deeplearning.ai TensorFlow Developer](https://www.coursera.org/professional-certificates/tensorflow-in-practice) `07/Oct/2020 - 21/Oct/2020`
+    - [x] [Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning](https://www.coursera.org/learn/introduction-tensorflow) `19/Oct/2020 - 21/Oct/2020`
     - [x] [Convolutional Neural Networks in TensorFlow](https://www.coursera.org/learn/convolutional-neural-networks-tensorflow) `07/Oct/2020 - 09/Oct/2020`
     - [x] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow) `09/Oct/2020 - 10/Oct/2020`
     - [x] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction) `10/Oct/2020 - 11/Oct/2020`
@@ -47,11 +47,17 @@ Neural net architectures I have implemented from scratch.
 - [VGGNet (2014)](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet)
 - [AlexNet (2012)](https://github.com/the-robot/deeplearning/tree/master/architectures/AlexNet)
 - [LeNet5 (1998)](https://github.com/the-robot/deeplearning/tree/master/architectures/LeNet5)
-- [GoogLeNet / Inception v1 (2014)](#) *todo*
+- [GoogLeNet / Inception v1 (2014)](https://github.com/the-robot/deeplearning/tree/master/architectures/GoogLeNet)
 
 <br/>
 
-### 4. References
+### 4. Object Detection
+
+- [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
+
+<br/>
+
+### 5. References
 
 - [How to learn deep learning [video]](https://www.youtube.com/watch?v=rVrhuuGKxuM)
 - [Andrew Ng's career advice and how to read research paper](https://www.youtube.com/watch?v=733m6qBH-jI&t=1930s)
@@ -59,7 +65,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 5. Links to checkout later
+### 6. Links to checkout later
 
 **Courses**
 
@@ -78,14 +84,14 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 6. Blogs I following
+### 7. Blogs I following
 
 - https://jlibovicky.github.io/ (mostly about Machine Translation)
 - https://yashuseth.blog/ (general ML topics)
 
 <br/>
 
-### 7. Questions I have searched
+### 8. Questions I have searched
 
 #### General
 - [x]  [How to create a good validation set](https://www.fast.ai/2017/11/13/validation-sets/)
@@ -113,7 +119,7 @@ Neural net architectures I have implemented from scratch.
 - [ ]  [A Simple Way to Prevent Neural Networks from Overfitting - Paper](https://jmlr.org/papers/v15/srivastava14a.html)
 - [x]  [Understanding and Coding a ResNet in Keras](https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33)
 - [x]  [How to Manually Scale Image Pixel Data for Deep Learning](https://machinelearningmastery.com/how-to-manually-scale-image-pixel-data-for-deep-learning)
-
+- [x]  [Understanding Parameter Sharing (or weights replication) Within Convolutional Neural Networks](https://towardsdatascience.com/understanding-parameter-sharing-or-weights-replication-within-convolutional-neural-networks-cc26db7b645a)
 
 #### NLP
 - [x]  [An Intuitive Understanding of Word Embeddings: From Count Vectors to Word2Vec](https://www.analyticsvidhya.com/blog/2017/06/word-embeddings-count-word2veec/)
