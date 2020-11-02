@@ -13,8 +13,8 @@
 <br/>
 
 Really great blog post about YOLO v2 implemntation from scratch in Tensorflow
-- [YOLO v2 implemntation in Tensorflow v1](https://fairyonice.github.io/Part_1_Object_Detection_with_Yolo_for_VOC_2014_data_anchor_box_clustering.html)
-- [YOLO v2 implemntation in Tensorflow v2](https://www.maskaravivek.com/post/yolov2/) `based on the v1 blog post`
+- [YOLO v2 implementation in Tensorflow v1](https://fairyonice.github.io/Part_1_Object_Detection_with_Yolo_for_VOC_2014_data_anchor_box_clustering.html)
+- [YOLO v2 implementation in Tensorflow v2](https://www.maskaravivek.com/post/yolov2/) `based on the v1 blog post`
 
 <br/>
 
