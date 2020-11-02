@@ -10,6 +10,6 @@
 - [Non-maximum Suppression (NMS)](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) `to fix multiple detections although it is not very effective as mentioned in paper, page 4.`
 - [Non-max Suppression (video)](https://youtu.be/YDkjWEN8jNA)
 
-Really great blog post about YOLO v2
+Really great blog post about YOLO v2 implemntation from scratch in Tensorflow
 - [YOLO v2 implemntation in Tensorflow v1](https://fairyonice.github.io/Part_1_Object_Detection_with_Yolo_for_VOC_2014_data_anchor_box_clustering.html)
 - [YOLO v2 implemntation in Tensorflow v2](https://www.maskaravivek.com/post/yolov2/) `based on the v1 blog post`
