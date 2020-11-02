@@ -19,4 +19,5 @@ Really great blog post about YOLO v2 implemntation from scratch in Tensorflow
 <br/>
 
 Yolo v2 implementations
-- [github.com/experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
+- [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
+- [FairyOnIce/ObjectDetectionYolo](https://github.com/FairyOnIce/ObjectDetectionYolo)
