@@ -9,6 +9,7 @@
 - [mean Average Precision (video)](https://youtu.be/FppOzcDvaDI)
 - [Non-maximum Suppression (NMS)](https://towardsdatascience.com/non-maximum-suppression-nms-93ce178e177c) `to fix multiple detections although it is not very effective as mentioned in paper, page 4.`
 - [Non-max Suppression (video)](https://youtu.be/YDkjWEN8jNA)
+- [YOLO loss function explanation](https://stats.stackexchange.com/a/287497)
 
 <br/>
 
