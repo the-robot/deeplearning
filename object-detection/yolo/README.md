@@ -1,6 +1,6 @@
 ### Yolo v1
 
-- [YOLO v1 - You Only Look Once: Unified, Real-Time Object Detection (2015)](https://arxiv.org/abs/1506.02640)  
+- [YOLOv1: You Only Look Once: Unified, Real-Time Object Detection (2015)](https://arxiv.org/abs/1506.02640)  
 - [Video explanation about YOLO v1](https://youtube.com/watch?v=n9_XyCGr-MI)
 - [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)  
 - [Overview of the YOLO Object Detection Algorithm](https://medium.com/@ODSC/overview-of-the-yolo-object-detection-algorithm-7b52a745d3e0)
@@ -14,7 +14,7 @@
 <br/>
 
 ### Yolo v2
-- [YOLO v2 - YOLO9000: Better, Faster, Stronger (2016)](https://arxiv.org/abs/1612.08242)  
+- [YOLOv2: YOLO9000: Better, Faster, Stronger (2016)](https://arxiv.org/abs/1612.08242)  
 - [YOLO v2 implementation in Tensorflow v1](https://fairyonice.github.io/Part_1_Object_Detection_with_Yolo_for_VOC_2014_data_anchor_box_clustering.html)
 - [YOLO v2 implementation in Tensorflow v2](https://www.maskaravivek.com/post/yolov2/) `based on the v1 blog post`
 - [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
@@ -23,13 +23,13 @@
 <br/>
 
 ### Yolo v3
-- [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767v1)
+- [YOLOv3: An Incremental Improvement (2018)](https://arxiv.org/abs/1804.02767v1)
 
 <br/>
 
 ### Yolo v4
 Paper related to v4
-- [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934v1)
+- [YOLOv4: Optimal Speed and Accuracy of Object Detection (2020)](https://arxiv.org/abs/2004.10934v1)
 - [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)
 
 Blog Post and Links
