@@ -22,6 +22,11 @@
 
 <br/>
 
+### Yolo v3
+- [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767v1)
+
+<br/>
+
 ### Yolo v4
 Paper related to v4
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934v1)
