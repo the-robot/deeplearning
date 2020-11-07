@@ -1,6 +1,6 @@
-[YOLO v1 - You Only Look Once: Unified, Real-Time Object Detection (2015)](https://arxiv.org/abs/1506.02640)  
-[YOLO v2 - YOLO9000: Better, Faster, Stronger (2016)](https://arxiv.org/abs/1612.08242)  
+### Yolo v1
 
+- [YOLO v1 - You Only Look Once: Unified, Real-Time Object Detection (2015)](https://arxiv.org/abs/1506.02640)  
 - [Video explanation about YOLO v1](https://youtube.com/watch?v=n9_XyCGr-MI)
 - [YOLO: Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)  
 - [Overview of the YOLO Object Detection Algorithm](https://medium.com/@ODSC/overview-of-the-yolo-object-detection-algorithm-7b52a745d3e0)
@@ -13,17 +13,20 @@
 
 <br/>
 
-Really great blog post about YOLO v2 implemntation from scratch in Tensorflow
+### Yolo v2
+- [YOLO v2 - YOLO9000: Better, Faster, Stronger (2016)](https://arxiv.org/abs/1612.08242)  
 - [YOLO v2 implementation in Tensorflow v1](https://fairyonice.github.io/Part_1_Object_Detection_with_Yolo_for_VOC_2014_data_anchor_box_clustering.html)
 - [YOLO v2 implementation in Tensorflow v2](https://www.maskaravivek.com/post/yolov2/) `based on the v1 blog post`
-
-<br/>
-
-Yolo v2 implementations
 - [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
 - [FairyOnIce/ObjectDetectionYolo](https://github.com/FairyOnIce/ObjectDetectionYolo)
 
-Yolo v4 implementation
+<br/>
+
+### Yolo v4
+Paper related to v4
+- [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)
+
+Blog Post and Links
 - [RobotEdh/Yolov-4](https://github.com/RobotEdh/Yolov-4/)
 - [Yolo v4 Summary](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61)
 - [Feature Pyramid Network (Object Detection)](https://towardsdatascience.com/review-fpn-feature-pyramid-network-object-detection-262fc7482610)
