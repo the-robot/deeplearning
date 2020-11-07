@@ -24,6 +24,7 @@
 
 ### Yolo v4
 Paper related to v4
+- [YOLOv4: Optimal Speed and Accuracy of Object Detection](https://arxiv.org/abs/2004.10934v1)
 - [CSPNet: A New Backbone that can Enhance Learning Capability of CNN](https://arxiv.org/abs/1911.11929)
 
 Blog Post and Links
