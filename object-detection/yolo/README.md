@@ -22,3 +22,7 @@ Really great blog post about YOLO v2 implemntation from scratch in Tensorflow
 Yolo v2 implementations
 - [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
 - [FairyOnIce/ObjectDetectionYolo](https://github.com/FairyOnIce/ObjectDetectionYolo)
+
+Yolo v4 implementation
+- [RobotEdh/Yolov-4](https://github.com/RobotEdh/Yolov-4/)
+- [Feature Pyramid Network (Object Detection)](https://towardsdatascience.com/review-fpn-feature-pyramid-network-object-detection-262fc7482610)
