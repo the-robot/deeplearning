@@ -64,6 +64,8 @@ Predicting the image
     Use non-max suppression to choose the bounding box with highest IoU
 ```
 
+> The above pseudocode is TLDR; of this [yolov2 notebook](https://github.com/the-robot/deeplearning/blob/master/object-detection/yolo/yolov2.ipynb).
+
 <br/>
 
 ### Yolo v3
