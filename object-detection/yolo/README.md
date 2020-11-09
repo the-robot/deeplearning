@@ -21,6 +21,48 @@
 - [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
 - [FairyOnIce/ObjectDetectionYolo](https://github.com/FairyOnIce/ObjectDetectionYolo)
 
+```
+YOLO v2 TLDR;
+
+SETUP HELPER METHODS;
+- Encode image by resizing the input image and normalize the image
+- Decode image by rescale center_x, center_y, center_w, center_h to image original dimension
+- Find best anchor box by calculating IoU (Intersection over Union)
+- Method to scan over w, h grid of the image and find the object class if the object confidence is 1 (or over some threshold)
+
+
+SETUP LOSS METHODS;
+- Calculate loss between predicted (x, y, w, h) and ground truth (x, y, w, h)
+- Calculate loss for object classification (this is simple classification loss func)
+- Calculate loss for object confidence, For each (grid cell, and anchor)
+  - Calculate loss for IoU
+      - Get true box confidence by calculating IoU score between (ground truth and predicted bounding box)
+      - For each predicted bounding box, calculate the best IoU regardless of ground truth anchor box
+  - Calculate object confidence mask
+      - Filter worse IoU with some threshold (for example < 0.6, lesser IoU means worse)
+      - And multiply the filtered above with (1 - true box confidence)
+      - After that add the result with true box confidence IoU
+      - this is to penalize the confidence of the anchor boxes, which are responsible for correspoding grouth truth box
+  - (True Box Confidence - Predicted Box Confidence) * object confidence mask -> overall object confidence loss
+- All {x, y, w, h} loss + object classification loss + object confidence loss -> Yolo loss
+
+SETUP TRAINING WORKFLOW;
+Use k-means clustering on trianing dataset to find anchor boxes  
+    Use elbow method to find good k anchor boxes
+
+Setup Darknet-19
+
+Load Yolo v2 weights into Darknet-19; except the last convolution layers for prediction
+    Freeze the early conv layers
+    The last prediciton layer will be trained
+
+Train the model with custom loss function we defined above
+
+Predicting the image
+    Among all predictions, find highest probability bounding box class
+    Use non-max suppression to choose the bounding box with highest IoU
+```
+
 <br/>
 
 ### Yolo v3
