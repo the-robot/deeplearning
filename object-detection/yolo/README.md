@@ -14,7 +14,8 @@
 <br/>
 
 ### Yolo v2
-- [YOLOv2: YOLO9000: Better, Faster, Stronger (2016)](https://arxiv.org/abs/1612.08242)  
+- [YOLOv2: YOLO9000: Better, Faster, Stronger (2016)](https://arxiv.org/abs/1612.08242)
+- [Yolo 2 Explained](https://towardsdatascience.com/yolo2-walkthrough-with-examples-e40452ca265f)
 - [YOLO v2 implementation in Tensorflow v1](https://fairyonice.github.io/Part_1_Object_Detection_with_Yolo_for_VOC_2014_data_anchor_box_clustering.html)
 - [YOLO v2 implementation in Tensorflow v2](https://www.maskaravivek.com/post/yolov2/) `based on the v1 blog post`
 - [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
