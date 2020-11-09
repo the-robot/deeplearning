@@ -46,6 +46,7 @@ SETUP LOSS METHODS;
   - (True Box Confidence - Predicted Box Confidence) * object confidence mask -> overall object confidence loss
 - All {x, y, w, h} loss + object classification loss + object confidence loss -> Yolo loss
 
+
 SETUP TRAINING WORKFLOW;
 Use k-means clustering on trianing dataset to find anchor boxes  
     Use elbow method to find good k anchor boxes
