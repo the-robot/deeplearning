@@ -84,3 +84,8 @@ Blog Post and Links
 - [Yolo v4 Summary](https://jonathan-hui.medium.com/yolov4-c9901eaa8e61)
 - [Feature Pyramid Network (Object Detection)](https://towardsdatascience.com/review-fpn-feature-pyramid-network-object-detection-262fc7482610)
 - [Swish Vs Mish: Latest Activation Functions](https://krutikabapat.github.io/Swish-Vs-Mish-Latest-Activation-Functions/)
+
+<br/>
+
+### Some other notable papers
+- [YOLO-LITE: A Real-Time Object Detection Algorithm Optimized for Non-GPU Computers](https://arxiv.org/abs/1811.05588)
