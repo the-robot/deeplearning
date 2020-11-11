@@ -88,7 +88,7 @@ Predicting the image
   - However compared to previous version, YOLO v3 has worse performance on medium and large size objects.
 - New feature extractor network aka *Darknet-53*
   - v2 uses *Darknet-19* but in v3 they use deeper network called *Darknet-53* which is the hybrid approach between *Darknet-19* and *ResNet*, residual network.
-  - It has 54 convolution layers so they called it *Darknet-53*.
+  - It has 53 convolution layers so they called it *Darknet-53*.
 - Changes in LOSS Function
   - The image below is the loss function used in YOLO v2.
   - In v2, the last three terms are the squared errors. However in v3, it is replaced by *cross-entrophy error*.
