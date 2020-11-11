@@ -102,7 +102,7 @@ Predicting the image
 
 
 - Predictions Across Scales
-  - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. (image is from [What’s new in YOLO v3? by Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)).
+  - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. Image is from [What’s new in YOLO v3? by Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b).
   - In order to make predictions at 3 different scales, it also has to upsample the input.
   - First `13x13` layer is to detect large objects, second `26x26` layer is to detect medium objects and the last `52x52` layer is to detect small objects.
   - Because YOLO v3 predicts boxes at 3 different scale, for the same image `416x416` with 3 anchor boxes and stride of 32, YOLO v2 only need to predict 845 (13x13x3) but YOLO v3 predicts 10,647 (13x13x9, 3 anchor boxes with 3 different scales).
