@@ -117,6 +117,8 @@ Paper related to v4
 - [CSPNet: A New Backbone that can Enhance Learning Capability of CNN (2019)](https://arxiv.org/abs/1911.11929)
 - [Feature Pyramid Networks for Object Detection (2017)](https://arxiv.org/abs/1612.03144)
 - [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition (2015)](https://arxiv.org/abs/1406.4729v4)
+- [Path Aggregation Network for Instance Segmentation (2018)](https://arxiv.org/abs/1803.01534)
+- [CBAM: Convolutional Block Attention Module (2018)](https://arxiv.org/abs/1807.06521v2) `for Spatial Attention Module (SAM)`
 
 Blog Post and Links
 - [RobotEdh/Yolov-4](https://github.com/RobotEdh/Yolov-4/)
