@@ -95,10 +95,13 @@ Predicting the image
   - v2 uses *Darknet-19* but in v3 they use deeper network called *Darknet-53* which is the hybrid approach between *Darknet-19* and *ResNet*, residual network.
   - It has 54 convolution layers so they called it *Darknet-53*.
 - Predictions Across Scales
-  - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. (image is from [YOLO, YOLOv2 and YOLOv3: All You want to know by Amro Kamal](https://medium.com/@amrokamal_47691/yolo-yolov2-and-yolov3-all-you-want-to-know-7e3e92dc4899).
-  - 
+  - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. (image is from [What’s new in YOLO v3? by Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b).
+  - In order to make predictions at 3 different scales, it also has to upsample the input.
+  - First `13x13` layer is to detect large objects, second `26x26` layer is to detect medium objects and the last `52x52` layer is to detect small objects.
+  - Because YOLO v3 predicts boxes at 3 different scale, for the same image `416x416` with 3 anchor boxes and stride of 32, YOLO v2 only need to predict 845 (13x13x3) but YOLO v3 predicts 10,647 (13x13x9, 3 anchor boxes with 3 different scales).
+  - That is also the reason why YOLO v3 is slower than YOLO v2.
   
-  ![darknet-53](https://miro.medium.com/max/700/1*9U9rJmRBatdbRWm5eo86qg.png)
+  ![darknet-53](https://miro.medium.com/max/1000/1*d4Eg17IVJ0L41e7CTWLLSg.png)
  
 
 <br/>
