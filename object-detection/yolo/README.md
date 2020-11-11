@@ -82,11 +82,6 @@ Predicting the image
 
 **What's new in Yolo v3**
 - Like Yolo v2, v3 also predicts `tx`, `ty`, `tw`, `th` for each bounding box. In addition to that, it also predicts objectness score (confidence) `c` for each bounding box using *logistic regression*. The value is 1 if the bounding box prior overlaps a ground truth object by more than any other bounding box prior.
-- Multi labels predictions.
-  - In some datasets like the Open Image Dataset an object may has multiple labels. For example, an object can be labeled as a woman and as a person.
-  - In v2, using softmax for class prediction imposes the assumption that each box has exactly one class which is often not the case.
-  - So in v3, instead of softmax, it simply uses independent logistic classifier for any class. During training, they used *binary cross-entrophy loss* for the class predictions.
-  - Using independent logistic classifier, an object can be detected as a woman and as a person at the same time.
 - Small objects detection
   - Older YOLO(s) struggle with small objects but in v3 they used shortcut connections (inspired from ResNet) to improve performance on small objects.
   - It allows to get more finer-grained information from the earlier feature map (before the later layers downsampled the input).
@@ -99,8 +94,11 @@ Predicting the image
   - In v2, the last three terms are the squared errors. However in v3, it is replaced by *cross-entrophy error*.
   - In other words, object confidence and class predictions in YOLO v3 are now predicted through logistic regression.
  ![yolo v1 loss](https://miro.medium.com/max/534/0*u4UXzV2E_opHIkNs.png)
-
-
+- Multi labels predictions.
+  - In some datasets like the Open Image Dataset an object may has multiple labels. For example, an object can be labeled as a woman and as a person.
+  - In v2, using softmax for class prediction imposes the assumption that each box has exactly one class which is often not the case.
+  - So in v3, instead of softmax, it simply uses independent logistic classifier for any class. During training, they used *binary cross-entrophy loss* for the class predictions.
+  - Using independent logistic classifier, an object can be detected as a woman and as a person at the same time.
 - Predictions Across Scales
   - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. Image is from [What’s new in YOLO v3? by Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b).
   - In order to make predictions at 3 different scales, it also has to upsample the input.
