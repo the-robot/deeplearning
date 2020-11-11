@@ -89,4 +89,4 @@ Blog Post and Links
 <br/>
 
 ### Some other notable papers
-- [YOLO-LITE: A Real-Time Object Detection Algorithm Optimized for Non-GPU Computers](https://arxiv.org/abs/1811.05588)
+- [YOLO-LITE: A Real-Time Object Detection Algorithm Optimized for Non-GPU Computers (2018)](https://arxiv.org/abs/1811.05588)
