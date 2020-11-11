@@ -70,6 +70,7 @@ Predicting the image
 
 ### Yolo v3
 - [YOLOv3: An Incremental Improvement (2018)](https://arxiv.org/abs/1804.02767v1)
+- [YOLO, YOLOv2 and YOLOv3: All You want to know](https://medium.com/@amrokamal_47691/yolo-yolov2-and-yolov3-all-you-want-to-know-7e3e92dc4899)
 
 <br/>
 
