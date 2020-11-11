@@ -25,7 +25,7 @@
 - Adding Batch Normalization on all of the conv layers in YOLO (which improved mAP by 2%)
 - High resolution classifier (original YOLO classifier network was trained on 224x224, in v2 it is increased to 448 for detection)
 - Convolutional with anchor boxes (multi-object prediction per grid cell) and also the anchor boxes are defined using K-mean clustering on the training set bounding boxes
-- New classification model *Darknet-19* is used as backbone
+- New classification model *Darknet-19* is used as backbone. It is called *Darknet-19* because it has 19 convolutional layers.
 - YOLO9000, they mixed the images from both detection (COCO dataset) and classification datasets (ImageNet dataset). Using the WordNet, they merged COCO and ImageNet dataset to form WordTree dataset.
 
 ```
@@ -91,6 +91,15 @@ Predicting the image
   - Older YOLO(s) struggle with small objects but in v3 they used shortcut connections (inspired from ResNet) to improve performance on small objects.
   - It allows to get more finer-grained information from the earlier feature map (before the later layers downsampled the input).
   - However compared to previous version, YOLO v3 has worse performance on medium and large size objects.
+- New feature extractor network aka *Darknet-53*
+  - v2 uses *Darknet-19* but in v3 they use deeper network called *Darknet-53* which is the hybrid approach between *Darknet-19* and *ResNet*, residual network.
+  - It has 54 convolution layers so they called it *Darknet-53*.
+- Predictions Across Scales
+  - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. (image is from [YOLO, YOLOv2 and YOLOv3: All You want to know by Amro Kamal](https://medium.com/@amrokamal_47691/yolo-yolov2-and-yolov3-all-you-want-to-know-7e3e92dc4899).
+  - 
+  
+  ![darknet-53](https://miro.medium.com/max/700/1*9U9rJmRBatdbRWm5eo86qg.png)
+ 
 
 <br/>
 
