@@ -94,6 +94,13 @@ Predicting the image
 - New feature extractor network aka *Darknet-53*
   - v2 uses *Darknet-19* but in v3 they use deeper network called *Darknet-53* which is the hybrid approach between *Darknet-19* and *ResNet*, residual network.
   - It has 54 convolution layers so they called it *Darknet-53*.
+- Changes in LOSS Function
+  - The image below is the loss function used in YOLO v2.
+  - In v2, the last three terms are the squared errors. However in v3, it is replaced by *cross-entrophy error*.
+  - In other words, object confidence and class predictions in YOLO v3 are now predicted through logistic regression.
+ ![yolo v1 loss](https://miro.medium.com/max/534/0*u4UXzV2E_opHIkNs.png)
+
+
 - Predictions Across Scales
   - Unlike previous versions which predict output at the last layer, v3 predicts boxes at 3 different scales as below. (image is from [What’s new in YOLO v3? by Ayoosh Kathuria](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b).
   - In order to make predictions at 3 different scales, it also has to upsample the input.
