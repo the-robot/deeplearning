@@ -21,6 +21,13 @@
 - [experiencor/keras-yolo2](https://github.com/experiencor/keras-yolo2)
 - [FairyOnIce/ObjectDetectionYolo](https://github.com/FairyOnIce/ObjectDetectionYolo)
 
+**What's new in Yolo v2**
+- Adding Batch Normalization on all of the conv layers in YOLO (which improved mAP by 2%)
+- High resolution classifier (original YOLO classifier network was trained on 224x224, in v2 it is increased to 448 for detection)
+- Convolutional with anchor boxes (multi-object prediction per grid cell) and also the anchor boxes are defined using K-mean clustering on the training set bounding boxes
+- New classification model *Darknet-19* is used as backbone
+- YOLO9000, they mixed the images from both detection (COCO dataset) and classification datasets (ImageNet dataset). Using the WordNet, they merged COCO and ImageNet dataset to form WordTree dataset.
+
 ```
 YOLO v2 TLDR;
 
