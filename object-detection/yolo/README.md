@@ -116,6 +116,7 @@ Paper related to v4
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection (2020)](https://arxiv.org/abs/2004.10934v1)
 - [CSPNet: A New Backbone that can Enhance Learning Capability of CNN (2019)](https://arxiv.org/abs/1911.11929)
 - [Feature Pyramid Networks for Object Detection (2017)](https://arxiv.org/abs/1612.03144)
+- [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition (2015)](https://arxiv.org/abs/1406.4729v4)
 
 Blog Post and Links
 - [RobotEdh/Yolov-4](https://github.com/RobotEdh/Yolov-4/)
