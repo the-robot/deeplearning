@@ -126,6 +126,7 @@ Blog Post and Links
 - [Feature Pyramid Network (Object Detection)](https://towardsdatascience.com/review-fpn-feature-pyramid-network-object-detection-262fc7482610)
 - [Understanding Feature Pyramid Networks for object detection (FPN)](https://jonathan-hui.medium.com/understanding-feature-pyramid-networks-for-object-detection-fpn-45b227b9106c)
 - [Review: Spatial Pyramid Pooling](https://medium.com/analytics-vidhya/review-spatial-pyramid-pooling-1406-4729-bfc142988dd2)
+- [How does the spatial pyramid pooling method work?](https://www.quora.com/How-does-the-spatial-pyramid-matching-method-work)
 - [Swish Vs Mish: Latest Activation Functions](https://krutikabapat.github.io/Swish-Vs-Mish-Latest-Activation-Functions/)
 - [Overview on DropBlock Regularization](https://medium.com/swlh/overview-on-dropblock-regularization-b1b9590fd3c2)
 
