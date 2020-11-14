@@ -132,6 +132,7 @@ Blog Post and Links
 - [Improving instance segmentation using Path Aggregation Network](https://medium.com/analytics-vidhya/improving-instance-segmentation-using-path-aggregation-network-a89588f3d630)
 - [Swish Vs Mish: Latest Activation Functions](https://krutikabapat.github.io/Swish-Vs-Mish-Latest-Activation-Functions/)
 - [Overview on DropBlock Regularization](https://medium.com/swlh/overview-on-dropblock-regularization-b1b9590fd3c2)
+- [EfficientDet: Scalable and Efficient Object Detection](https://medium.com/@nainaakash012/efficientdet-scalable-and-efficient-object-detection-ea05ccd28427) `about biFPN`
 
 <br/>
 
