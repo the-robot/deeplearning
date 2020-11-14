@@ -128,6 +128,7 @@ Blog Post and Links
 - [Review: Spatial Pyramid Pooling](https://medium.com/analytics-vidhya/review-spatial-pyramid-pooling-1406-4729-bfc142988dd2)
 - [How does the spatial pyramid pooling method work?](https://www.quora.com/How-does-the-spatial-pyramid-matching-method-work)
 - [Reading: PANet — Path Aggregation Network](https://becominghuman.ai/reading-panet-path-aggregation-network-1st-place-in-coco-2017-challenge-instance-segmentation-fe4c985cad1b)
+- [Improving instance segmentation using Path Aggregation Network](https://medium.com/analytics-vidhya/improving-instance-segmentation-using-path-aggregation-network-a89588f3d630)
 - [Swish Vs Mish: Latest Activation Functions](https://krutikabapat.github.io/Swish-Vs-Mish-Latest-Activation-Functions/)
 - [Overview on DropBlock Regularization](https://medium.com/swlh/overview-on-dropblock-regularization-b1b9590fd3c2)
 
