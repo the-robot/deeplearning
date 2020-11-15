@@ -115,6 +115,7 @@ Predicting the image
 Paper related to v4
 - [YOLOv4: Optimal Speed and Accuracy of Object Detection (2020)](https://arxiv.org/abs/2004.10934v1)
 - [CSPNet: A New Backbone that can Enhance Learning Capability of CNN (2019)](https://arxiv.org/abs/1911.11929)
+- [DC-SPP-YOLO: Dense Connection and Spatial Pyramid Pooling Based YOLO for Object Detection (2019)](https://arxiv.org/abs/1903.08589)
 - [Feature Pyramid Networks for Object Detection (2017)](https://arxiv.org/abs/1612.03144)
 - [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition (2015)](https://arxiv.org/abs/1406.4729v4)
 - [Path Aggregation Network for Instance Segmentation (2018)](https://arxiv.org/abs/1803.01534)
