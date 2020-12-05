@@ -9,3 +9,4 @@
 
 ### Some other interesting links
 - [nithi89/unet_darknet](https://github.com/nithi89/unet_darknet)
+- [qubvel/segmentation_models](https://github.com/qubvel/segmentation_models)
