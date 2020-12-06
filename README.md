@@ -113,6 +113,7 @@ Neural net architectures I have implemented from scratch.
 - [x]  [Learning Rate Schedules and Adaptive Learning Rate Methods for Deep Learning](https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1)
 - [ ]  [Transfer Learning - Machine Learning's Next Frontier](https://ruder.io/transfer-learning/)
 - [x]  [Transfer Learning Tips (Fine-tuning vs Fixed feature extractor)](https://cs231n.github.io/transfer-learning/#tf)
+- [x]  [A 2020 guide to Semantic Segmentation](https://nanonets.com/blog/semantic-image-segmentation-2020/)
 
 #### Neural Nets
 - [x]  [About Resnet34](https://towardsdatascience.com/understanding-and-visualizing-resnets-442284831be8)
