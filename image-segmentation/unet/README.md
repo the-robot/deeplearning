@@ -12,3 +12,4 @@
 ### Some other interesting links
 - [nithi89/unet_darknet](https://github.com/nithi89/unet_darknet)
 - [qubvel/segmentation_models](https://github.com/qubvel/segmentation_models)
+- [TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation (2018)](https://arxiv.org/abs/1801.05746)
