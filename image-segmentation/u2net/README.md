@@ -1,3 +1,4 @@
 - [U²-Net: Going Deeper with Nested U-Structure for Salient Object Detection (2020)](https://arxiv.org/abs/2005.09007)
+- [Salient Object Detection in the Deep Learning Era: An In-Depth Survey (2019)](https://arxiv.org/abs/1904.09146)
 - [NathanUA/U-2-Net](https://github.com/NathanUA/U-2-Net)
 - [Background removal with U²-Net](https://towardsdatascience.com/background-removal-with-u%C2%B2-net-2819b8e77078)
