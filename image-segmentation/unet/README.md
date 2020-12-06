@@ -7,6 +7,7 @@
 - [Humans Image Segmentation with Unet using Tensorflow Keras](https://medium.com/analytics-vidhya/humans-image-segmentation-with-unet-using-tensorflow-keras-fd6cb43b06e5)
 - [UNet — Line by Line Explanation](https://towardsdatascience.com/unet-line-by-line-explanation-9b191c76baf5)
 - [Master the COCO Dataset for Semantic Image Segmentation](https://towardsdatascience.com/master-the-coco-dataset-for-semantic-image-segmentation-part-1-of-2-732712631047)
+- [UpSampling2D vs Conv2DTranspose in Keras](https://stackoverflow.com/a/53655426)
 
 <br/>
 
