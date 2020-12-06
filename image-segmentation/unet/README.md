@@ -7,7 +7,6 @@
 - [Humans Image Segmentation with Unet using Tensorflow Keras](https://medium.com/analytics-vidhya/humans-image-segmentation-with-unet-using-tensorflow-keras-fd6cb43b06e5)
 - [UNet — Line by Line Explanation](https://towardsdatascience.com/unet-line-by-line-explanation-9b191c76baf5)
 
-
 <br/>
 
 ### Some other interesting links
