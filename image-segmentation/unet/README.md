@@ -8,6 +8,7 @@
 - [UNet — Line by Line Explanation](https://towardsdatascience.com/unet-line-by-line-explanation-9b191c76baf5)
 - [Master the COCO Dataset for Semantic Image Segmentation](https://towardsdatascience.com/master-the-coco-dataset-for-semantic-image-segmentation-part-1-of-2-732712631047)
 - [UpSampling2D vs Conv2DTranspose in Keras](https://stackoverflow.com/a/53655426)
+- [Up-sampling with Transposed Convolution](https://naokishibuya.medium.com/up-sampling-with-transposed-convolution-9ae4f2df52d0)
 
 <br/>
 
