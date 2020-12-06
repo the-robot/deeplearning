@@ -59,7 +59,7 @@ Neural net architectures I have implemented from scratch.
 
 ### 5. Image Segmentation
 
-- [UNet](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/unet)
+- [UNet](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/UNet)
 
 <br/>
 
