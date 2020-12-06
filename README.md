@@ -87,6 +87,7 @@ Neural net architectures I have implemented from scratch.
 - https://spinningup.openai.com/en/latest/index.html
 - https://ml-cheatsheet.readthedocs.io/ (cheat sheet)
 - https://deepai.org/definitions (ML Glossary)
+- https://leimao.github.io/
 
 <br/>
 
