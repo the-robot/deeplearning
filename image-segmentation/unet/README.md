@@ -17,3 +17,5 @@
 - [qubvel/segmentation_models](https://github.com/qubvel/segmentation_models)
 - [ternaus/TernausNet](https://github.com/ternaus/TernausNet)
 - [TernausNet: U-Net with VGG11 Encoder Pre-Trained on ImageNet for Image Segmentation (2018)](https://arxiv.org/abs/1801.05746)
+- [Introduction To Image Matting](https://medium.com/ai-in-plain-english/introduction-to-image-matting-1c2040d19490)
+- [eti-p-doray/unet-gan-matting](https://github.com/eti-p-doray/unet-gan-matting)
