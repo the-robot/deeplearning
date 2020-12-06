@@ -2,3 +2,4 @@
 - [Salient Object Detection in the Deep Learning Era: An In-Depth Survey (2019)](https://arxiv.org/abs/1904.09146)
 - [NathanUA/U-2-Net](https://github.com/NathanUA/U-2-Net)
 - [Background removal with U²-Net](https://towardsdatascience.com/background-removal-with-u%C2%B2-net-2819b8e77078)
+- [What does "salient object detection" mean in image processing?](https://www.quora.com/What-does-salient-object-detection-mean-in-image-processing)
