@@ -1,0 +1,2 @@
+- [U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection (2020)](https://arxiv.org/abs/2005.09007)
+- [NathanUA/U-2-Net](https://github.com/NathanUA/U-2-Net)
