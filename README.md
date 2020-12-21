@@ -19,6 +19,11 @@ This repository contains deep learning related projects I have done over time. A
     - [x] [Natural Language Processing in TensorFlow](https://www.coursera.org/learn/natural-language-processing-tensorflow) `09/Oct/2020 - 10/Oct/2020`
     - [x] [Sequences, Time Series and Prediction](https://www.coursera.org/learn/tensorflow-sequences-time-series-and-prediction) `10/Oct/2020 - 11/Oct/2020`
 
+- [ ] [Generative Adversarial Networks (GANs)](https://www.coursera.org/specializations/generative-adversarial-networks-gans) `21/Dec/2020 - `
+    - [ ] [Build Basic Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-basic-generative-adversarial-networks-gans) `21/Dec/2020 -`
+    - [ ] [Build Better Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/build-better-generative-adversarial-networks-gans) `21/Dec/2020 -`
+    - [ ] [Apply Generative Adversarial Networks (GANs)](https://www.coursera.org/learn/apply-generative-adversarial-networks-gans) `21/Dec/2020 -`
+
 - [ ] [Deeplearning.ai Natural Language Processing](https://www.coursera.org/specializations/natural-language-processing)
     - [ ] [Natural Language Processing with Classification and Vector Spaces](https://www.coursera.org/learn/classification-vector-spaces-in-nlp)
     - [ ] [Natural Language Processing with Probabilistic Models](https://www.coursera.org/learn/probabilistic-models-in-nlp)
