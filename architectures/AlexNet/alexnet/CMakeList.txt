@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.17)
+project(alexnet)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_PREFIX_PATH <PATH_TO_YOUR_LIB_TORCH_LIBRARY>)
+set(EXECUTABLE_NAME alexnet)
+
+find_package(Torch REQUIRED)
+
+add_executable(${EXECUTABLE_NAME})
+target_sources(${EXECUTABLE_NAME} PRIVATE src/main.cpp
+                                          src/alexnet.cpp
+                                          include/alexnet.h
+)
+
+target_include_directories(${EXECUTABLE_NAME} PRIVATE include)
+
+target_link_libraries(${EXECUTABLE_NAME} "${TORCH_LIBRARIES}")
+set_property(TARGET ${EXECUTABLE_NAME} PROPERTY CXX_STANDARD 14)
+
+# The following code block is suggested to be used on Windows.
+# According to https://github.com/pytorch/pytorch/issues/25457,
+# the DLLs need to be copied to avoid memory errors.
+if (MSVC)
+    file(GLOB TORCH_DLLS "${TORCH_INSTALL_PREFIX}/lib/*.dll")
+    add_custom_command(TARGET ${EXECUTABLE_NAME}
+            POST_BUILD
+            COMMAND ${CMAKE_COMMAND} -E copy_if_different
+            ${TORCH_DLLS}
+            $<TARGET_FILE_DIR:alexnet>)
+endif (MSVC)
