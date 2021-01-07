@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.17)
 project(alexnet)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_PREFIX_PATH <PATH_TO_YOUR_LIB_TORCH_LIBRARY>)
 set(EXECUTABLE_NAME alexnet)
 
 find_package(Torch REQUIRED)
