@@ -49,7 +49,7 @@ This repository contains deep learning related projects I have done over time. A
 Neural net architectures I have implemented from scratch.
 
 - [ResNet (2015)](https://github.com/the-robot/deeplearning/tree/master/architectures/ResNet)
-- [VGGNet (2014)](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet)
+- [VGGNet (2014)](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet) *([python implementation](https://github.com/the-robot/deeplearning/blob/master/architectures/VGGNet/vggnet.py), [c++ implementation - TODO](https://github.com/the-robot/deeplearning/tree/master/architectures/VGGNet/vggnet))*
 - [AlexNet (2012)](https://github.com/the-robot/deeplearning/tree/master/architectures/AlexNet) *([python implementation](https://github.com/the-robot/deeplearning/blob/master/architectures/AlexNet/alexnet.py), [c++ implementation](https://github.com/the-robot/deeplearning/tree/master/architectures/AlexNet/alexnet))*
 - [LeNet5 (1998)](https://github.com/the-robot/deeplearning/tree/master/architectures/LeNet5)
 - [GoogLeNet / Inception v1 (2014)](https://github.com/the-robot/deeplearning/tree/master/architectures/GoogLeNet)
