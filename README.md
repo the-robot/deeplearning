@@ -56,7 +56,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 4. TLDR; Deeplearning model/algo archieve
+### 4. Deeplearning model/algo archieve (i really do not know how to categorize this yet)
 
 - [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
 - [Neural Style Transfer](https://github.com/the-robot/deeplearning/tree/master/neural-style-transfer)
