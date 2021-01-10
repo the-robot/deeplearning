@@ -1,3 +1,4 @@
 - [A Neural Algorithm of Artistic Style (2015)](https://arxiv.org/abs/1508.06576)
 - [Neural Algorithm of Artistic Style: A Modern Form of Creation](https://towardsdatascience.com/a-neural-algorithm-of-artistic-style-a-modern-form-of-creation-d39a6ac7e715)
 - [How to Get Beautiful Results with Neural Style Transfer](https://towardsdatascience.com/how-to-get-beautiful-results-with-neural-style-transfer-75d0c05d6489)
+- [PyTorch Neural Style Tutorial](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
