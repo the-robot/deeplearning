@@ -1,1 +1,3 @@
-- [A Neural Algorithm of Artistic Style (2015)](https://arxiv.org/abs/1508.06576)  
+- [A Neural Algorithm of Artistic Style (2015)](https://arxiv.org/abs/1508.06576)
+- [Neural Algorithm of Artistic Style: A Modern Form of Creation](https://towardsdatascience.com/a-neural-algorithm-of-artistic-style-a-modern-form-of-creation-d39a6ac7e715)
+- 
