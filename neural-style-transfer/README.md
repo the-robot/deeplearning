@@ -7,5 +7,9 @@
 - [Why Does Neural Style Transfer Work Best With Old VGG CNNs' Features?](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/)
 - [Neural Style Transfer with Adversarially Robust Classifiers](https://reiinakano.com/2019/06/21/robust-neural-style-transfer.html)
 
-Some other notable papers
+Some other notable papers and projects
+- [Perceptual Losses for Real-Time Style Transfer and Super-Resolution (2016)](https://arxiv.org/abs/1603.08155)
 - [Neural Style Transfer: A Review (2017)](https://arxiv.org/abs/1705.04058)
+- [linzeng614/SqueezeNet-Neural-Style-Pytorch](https://github.com/lizeng614/SqueezeNet-Neural-Style-Pytorch)
+- [jcjohnson/fast-neural-style](https://github.com/jcjohnson/fast-neural-style)
+- [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
