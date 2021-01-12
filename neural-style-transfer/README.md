@@ -14,3 +14,4 @@ Some other notable papers and projects
 - [jcjohnson/neural-style](https://github.com/jcjohnson/neural-style)
 - [jcjohnson/fast-neural-style](https://github.com/jcjohnson/fast-neural-style)
 - [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
+- [Getting Inception Architectures to Work with Style Transfer](https://medium.com/mlreview/getting-inception-architectures-to-work-with-style-transfer-767d53475bf8)
