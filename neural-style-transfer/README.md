@@ -4,4 +4,8 @@
 - [PyTorch Neural Style Tutorial](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
 - [Understanding Style Transfer](https://ptrrupprecht.wordpress.com/2017/12/05/understanding-style-transfer/)
 - [Feature Visualization](https://distill.pub/2017/feature-visualization/)
+- [Why Does Neural Style Transfer Work Best With Old VGG CNNs' Features?](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/)
 - [Neural Style Transfer with Adversarially Robust Classifiers](https://reiinakano.com/2019/06/21/robust-neural-style-transfer.html)
+
+Some other notable papers
+- [Neural Style Transfer: A Review (2017)](https://arxiv.org/abs/1705.04058)
