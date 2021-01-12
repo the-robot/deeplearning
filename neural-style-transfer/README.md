@@ -6,6 +6,7 @@
 - [Feature Visualization](https://distill.pub/2017/feature-visualization/)
 - [Why Does Neural Style Transfer Work Best With Old VGG CNNs' Features?](https://www.reddit.com/r/MachineLearning/comments/7rrrk3/d_eat_your_vggtables_or_why_does_neural_style/)
 - [Style Transfer with non-VGG architectures](https://distill.pub/2018/differentiable-parameterizations/#section-styletransfer)
+  - [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 - [Neural Style Transfer with Adversarially Robust Classifiers](https://reiinakano.com/2019/06/21/robust-neural-style-transfer.html)
 - [Getting Inception Architectures to Work with Style Transfer](https://medium.com/mlreview/getting-inception-architectures-to-work-with-style-transfer-767d53475bf8)
 
