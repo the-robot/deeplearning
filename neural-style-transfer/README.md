@@ -12,4 +12,5 @@ Some other notable papers and projects
 - [Neural Style Transfer: A Review (2017)](https://arxiv.org/abs/1705.04058)
 - [linzeng614/SqueezeNet-Neural-Style-Pytorch](https://github.com/lizeng614/SqueezeNet-Neural-Style-Pytorch)
 - [jcjohnson/fast-neural-style](https://github.com/jcjohnson/fast-neural-style)
+- [jcjohnson/neural-style](https://github.com/jcjohnson/neural-style)
 - [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
