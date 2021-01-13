@@ -9,6 +9,8 @@
   - [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 - [Neural Style Transfer with Adversarially Robust Classifiers](https://reiinakano.com/2019/06/21/robust-neural-style-transfer.html)
 - [Getting Inception Architectures to Work with Style Transfer](https://medium.com/mlreview/getting-inception-architectures-to-work-with-style-transfer-767d53475bf8)
+- [What is adversarial machine learning?](https://thenextweb.com/neural/2020/07/24/what-is-adversarial-machine-learning-syndication/)
+- [Adversarial Examples Are Not Bugs, They Are Features]
 
 Some other notable papers and projects
 - [Perceptual Losses for Real-Time Style Transfer and Super-Resolution (2016)](https://arxiv.org/abs/1603.08155)
