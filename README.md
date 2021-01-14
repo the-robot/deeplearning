@@ -56,22 +56,17 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 4. Deeplearning model/algo archieve (i really do not know how to categorize this yet)
+### 4. Random Deeplearning topics and algorithms I have done
 
 - [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
+- [UNet](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/unet)
+- [U²Net](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/u2net)
 - [Neural Style Transfer](https://github.com/the-robot/deeplearning/tree/master/neural-style-transfer)
 - [Adversarial Attacks](https://github.com/the-robot/deeplearning/tree/master/adversarial-attacks)
 
 <br/>
 
-### 5. Image Segmentation
-
-- [UNet](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/unet)
-- [U²Net](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/u2net)
-
-<br/>
-
-### 6. References
+### 5. References
 
 - [How to learn deep learning [video]](https://www.youtube.com/watch?v=rVrhuuGKxuM)
 - [Andrew Ng's career advice and how to read research paper](https://www.youtube.com/watch?v=733m6qBH-jI&t=1930s)
@@ -79,7 +74,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 7. Links to checkout later
+### 6. Links to checkout later
 
 **Courses**
 
@@ -98,7 +93,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 8. Blogs I following
+### 7. Blogs I following
 
 - https://jlibovicky.github.io/ (mostly about Machine Translation)
 - https://yashuseth.blog/ (general ML topics)
@@ -110,7 +105,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 9. Questions I have searched
+### 8. Questions I have searched
 
 #### General
 - [x]  [How to create a good validation set](https://www.fast.ai/2017/11/13/validation-sets/)
