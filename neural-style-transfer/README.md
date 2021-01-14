@@ -19,4 +19,4 @@ Some other notable papers and projects
 - [jcjohnson/neural-style](https://github.com/jcjohnson/neural-style)
 - [jcjohnson/fast-neural-style](https://github.com/jcjohnson/fast-neural-style)
 - [lengstrom/fast-style-transfer](https://github.com/lengstrom/fast-style-transfer)
-- [Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)
+
