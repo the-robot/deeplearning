@@ -56,7 +56,7 @@ Neural net architectures I have implemented from scratch.
 
 <br/>
 
-### 4. Random Deeplearning topics and algorithms I have done
+### 4. Random deeplearning topics and algorithms I have done
 
 - [YOLO algorithm](https://github.com/the-robot/deeplearning/tree/master/object-detection/yolo)
 - [UNet](https://github.com/the-robot/deeplearning/tree/master/image-segmentation/unet)
