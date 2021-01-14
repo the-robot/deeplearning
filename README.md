@@ -94,7 +94,6 @@ Neural net architectures I have implemented from scratch.
 - https://spinningup.openai.com/en/latest/index.html
 - https://ml-cheatsheet.readthedocs.io/ (cheat sheet)
 - https://deepai.org/definitions (ML Glossary)
-- https://leimao.github.io/
 
 <br/>
 
@@ -104,7 +103,9 @@ Neural net architectures I have implemented from scratch.
 - https://yashuseth.blog/ (general ML topics)
 - https://fairyonice.github.io/
 - https://g-airborne.com/
+- https://leimao.github.io/
 - https://distill.pub/
+- https://gradientscience.org/
 
 <br/>
 
